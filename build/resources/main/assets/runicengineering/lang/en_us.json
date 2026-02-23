@@ -1,0 +1,13 @@
+{
+  "itemGroup.runicengineering": "Example Mod Tab",
+  "block.runicengineering.example_block": "Example Block",
+  "item.runicengineering.example_item": "Example Item",
+
+  "runicengineering.configuration.title": "Runic Engineering Configs",
+  "runicengineering.configuration.section.runicengineering.common.toml": "Runic Engineering Configs",
+  "runicengineering.configuration.section.runicengineering.common.toml.title": "Runic Engineering Configs",
+  "runicengineering.configuration.items": "Item List",
+  "runicengineering.configuration.logDirtBlock": "Log Dirt Block",
+  "runicengineering.configuration.magicNumberIntroduction": "Magic Number Text",
+  "runicengineering.configuration.magicNumber": "Magic Number"
+}

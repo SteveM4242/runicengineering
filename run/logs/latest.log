@@ -1,0 +1,181 @@
+[22Feb.2026 19:50:14.657] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 77ms
+[22Feb.2026 19:50:14.664] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.36 (CLIENT in DEV)
+[22Feb.2026 19:50:14.664] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: /home/leo/Dokumente/intellijProjects/runicengineering/run
+[22Feb.2026 19:50:14.699] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 90) in 13ms
+[22Feb.2026 19:50:14.699] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[22Feb.2026 19:50:14.700] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/leo/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/loader/10.0.36/f72ab4d3e755fe736829883d90430a281527aca/loader-10.0.36.jar
+[22Feb.2026 19:50:14.700] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/leo/.gradle/caches/modules-2/files-2.1/net.neoforged.fancymodloader/earlydisplay/10.0.36/dbd0e11d545443f602addede111c39d9639708f9/earlydisplay-10.0.36.jar
+[22Feb.2026 19:50:14.704] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[22Feb.2026 19:50:14.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[22Feb.2026 19:50:14.822] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates runicengineering%%/home/leo/Dokumente/intellijProjects/runicengineering/build/classes/java/main:runicengineering%%/home/leo/Dokumente/intellijProjects/runicengineering/build/resources/main from env
+[22Feb.2026 19:50:14.925] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[22Feb.2026 19:50:14.927] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.11 (minecraft)
+		NeoForge 21.11.38-beta (neoforge)
+		Runic Engineering 1.0.0 (runicengineering)
+[22Feb.2026 19:50:15.086] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/leo/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[22Feb.2026 19:50:15.104] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[22Feb.2026 19:50:15.104] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - /home/leo/Dokumente/intellijProjects/runicengineering/build/moddev/artifacts/neoforge-21.11.38-beta.jar > net.neoforged.neoforge-coremods-21.11.38-beta.jar
+[22Feb.2026 19:50:15.196] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - minecraft (composite(jar(/home/leo/Dokumente/intellijProjects/runicengineering/build/moddev/artifacts/neoforge-21.11.38-beta-client-extra-aka-minecraft-resources.jar), filtered(jar(/home/leo/Dokumente/intellijProjects/runicengineering/build/moddev/artifacts/neoforge-21.11.38-beta.jar))))
+ - mixinextras.neoforge (jar(/home/leo/Dokumente/intellijProjects/runicengineering/build/moddev/artifacts/neoforge-21.11.38-beta.jar > mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(/home/leo/Dokumente/intellijProjects/runicengineering/build/moddev/artifacts/neoforge-21.11.38-beta.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
+ - runicengineering (composite(folder(/home/leo/Dokumente/intellijProjects/runicengineering/build/classes/java/main), folder(/home/leo/Dokumente/intellijProjects/runicengineering/build/resources/main)))
+[22Feb.2026 19:50:15.207] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 20ms
+[22Feb.2026 19:50:15.494] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[22Feb.2026 19:50:19.313] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [runicengineering]
+[22Feb.2026 19:50:19.339] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.11.38-beta, for MC 1.21.11
+[22Feb.2026 19:50:19.508] [modloading-sync-worker/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Block id not set
+	Index: 1
+	Listeners:
+		0: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000789a54cae440@7fe829c8
+		1: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000789a54cae440@67ab9e8b
+java.lang.NullPointerException: Block id not set
+	at java.base/java.util.Objects.requireNonNull(Objects.java:259)
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.state.BlockBehaviour$Properties.effectiveDrops(BlockBehaviour.java:1249)
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.state.BlockBehaviour.<init>(BlockBehaviour.java:113)
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.Block.<init>(Block.java:245)
+	at TRANSFORMER/runicengineering@1.0.0/net.stevem42.runicengineering.block.ModBlocks.lambda$static$0(ModBlocks.java:22)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister$Blocks.lambda$registerBlock$2(DeferredRegister.java:451)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375)
+	at net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at net.neoforged.bus.EventBus.post(EventBus.java:342)
+	at net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$13(ModLoader.java:351)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.neoforged.fml.ModList.forEachModInOrder(ModList.java:175)
+	at net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:349)
+	at net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:340)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:90)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[22Feb.2026 19:50:19.509] [modloading-sync-worker/ERROR] [net.neoforged.fml.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.registries.RegisterEvent@200e33c7 dispatch for modid runicengineering
+java.lang.NullPointerException: Block id not set
+	at java.base/java.util.Objects.requireNonNull(Objects.java:259) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.state.BlockBehaviour$Properties.effectiveDrops(BlockBehaviour.java:1249) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.state.BlockBehaviour.<init>(BlockBehaviour.java:113) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/minecraft@1.21.11/net.minecraft.world.level.block.Block.<init>(Block.java:245) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/runicengineering@1.0.0/net.stevem42.runicengineering.block.ModBlocks.lambda$static$0(ModBlocks.java:22) ~[main/:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister$Blocks.lambda$registerBlock$2(DeferredRegister.java:451) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.11.38-beta.jar:?]
+	at net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar:?]
+	at net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar:?]
+	at net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar:?]
+	at net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-10.0.36.jar:10.0]
+	at net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$13(ModLoader.java:351) ~[loader-10.0.36.jar:10.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.neoforged.fml.ModList.forEachModInOrder(ModList.java:175) ~[loader-10.0.36.jar:10.0]
+	at net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:349) ~[loader-10.0.36.jar:10.0]
+	at net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:340) ~[loader-10.0.36.jar:10.0]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:90) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.11.38-beta.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22Feb.2026 19:50:19.519] [modloading-sync-worker/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Trying to access unbound value: ResourceKey[minecraft:block / runicengineering:runic_block]
+	Index: 0
+	Listeners:
+		0: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000789a54cae440@7fe829c8
+		1: net.neoforged.neoforge.registries.DeferredRegister$$Lambda/0x0000789a54cae440@67ab9e8b
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / runicengineering:runic_block]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117)
+	at TRANSFORMER/runicengineering@1.0.0/net.stevem42.runicengineering.block.ModBlocks.lambda$registerBlockItem$1(ModBlocks.java:32)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister$Items.lambda$registerItem$8(DeferredRegister.java:766)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375)
+	at net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27)
+	at net.neoforged.bus.EventBus.post(EventBus.java:360)
+	at net.neoforged.bus.EventBus.post(EventBus.java:342)
+	at net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177)
+	at net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$13(ModLoader.java:351)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at net.neoforged.fml.ModList.forEachModInOrder(ModList.java:175)
+	at net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:349)
+	at net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:340)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:90)
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[22Feb.2026 19:50:19.519] [modloading-sync-worker/ERROR] [net.neoforged.fml.ModContainer/LOADING]: Caught exception during event net.neoforged.neoforge.registries.RegisterEvent@37caf9fa dispatch for modid runicengineering
+java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / runicengineering:runic_block]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredHolder.value(DeferredHolder.java:103) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredHolder.get(DeferredHolder.java:117) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/runicengineering@1.0.0/net.stevem42.runicengineering.block.ModBlocks.lambda$registerBlockItem$1(ModBlocks.java:32) ~[main/:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister$Items.lambda$registerItem$8(DeferredRegister.java:766) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.lambda$register$1(DeferredRegister.java:234) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.lambda$addEntries$2(DeferredRegister.java:375) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.RegisterEvent.register(RegisterEvent.java:48) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.DeferredRegister.addEntries(DeferredRegister.java:375) ~[neoforge-21.11.38-beta.jar:?]
+	at net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar:?]
+	at net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar:?]
+	at net.neoforged.bus.EventBus.post(EventBus.java:342) ~[bus-8.0.5.jar:?]
+	at net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:177) ~[loader-10.0.36.jar:10.0]
+	at net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$13(ModLoader.java:351) ~[loader-10.0.36.jar:10.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.neoforged.fml.ModList.forEachModInOrder(ModList.java:175) ~[loader-10.0.36.jar:10.0]
+	at net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:349) ~[loader-10.0.36.jar:10.0]
+	at net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:340) ~[loader-10.0.36.jar:10.0]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:90) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.11.38-beta.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[22Feb.2026 19:50:19.555] [modloading-sync-worker/ERROR] [net.neoforged.neoforge.registries.GameData/]: Failed to register some entries, see suppressed exceptions for details
+java.lang.RuntimeException
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:81) ~[neoforge-21.11.38-beta.jar:?]
+	at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.internal.CommonModLoader.lambda$begin$0(CommonModLoader.java:54) ~[neoforge-21.11.38-beta.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+	Suppressed: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- Runic Engineering (runicengineering) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Block id not set
+
+		at net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181)
+		at net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$13(ModLoader.java:351)
+		at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+		at net.neoforged.fml.ModList.forEachModInOrder(ModList.java:175)
+		at net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:349)
+		at net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:340)
+		at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:90) ~[neoforge-21.11.38-beta.jar:?]
+		... 5 more
+	Suppressed: net.neoforged.fml.ModLoadingException: Loading errors encountered:
+	- Runic Engineering (runicengineering) encountered an error while dispatching the net.neoforged.neoforge.registries.RegisterEvent event
+	  java.lang.NullPointerException: Trying to access unbound value: ResourceKey[minecraft:block / runicengineering:runic_block]
+
+		at net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:181)
+		at net.neoforged.fml.ModLoader.lambda$postEventWithWrapInModOrder$13(ModLoader.java:351)
+		at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+		at net.neoforged.fml.ModList.forEachModInOrder(ModList.java:175)
+		at net.neoforged.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:349)
+		at net.neoforged.fml.ModLoader.postEventWrapContainerInModOrder(ModLoader.java:340)
+		at TRANSFORMER/neoforge@21.11.38-beta/net.neoforged.neoforge.registries.GameData.postRegisterEvents(GameData.java:90) ~[neoforge-21.11.38-beta.jar:?]
+		... 5 more
+[22Feb.2026 19:50:19.564] [modloading-sync-worker/ERROR] [net.neoforged.neoforge.registries.GameData/]: Rolling back to VANILLA state
+[22Feb.2026 19:50:19.950] [main/FATAL] [net.neoforged.fml.ModLoader/LOADING]: Failed to wait for future Registry initialization, 2 errors found
+[22Feb.2026 19:50:19.950] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 2cb53aa5
+[22Feb.2026 19:50:19.950] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
